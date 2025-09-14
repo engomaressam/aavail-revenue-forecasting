@@ -1,0 +1,11 @@
+model,mean_mae_vs_naive_pct,wins
+"ARIMA(2,1,2)",-5.5,2
+naive (last 30 days),0.0,2
+Holt-Winters (weekly),3.3,0
+ridge regression,4.4,2
+blend: last 30 days + last year,4.7,0
+random forest,12.1,1
+gradient boosting,13.6,2
+seasonal naive (last year),35.2,1
+seasonal ridge,61.3,1
+seasonal naive x recent growth,69.1,0

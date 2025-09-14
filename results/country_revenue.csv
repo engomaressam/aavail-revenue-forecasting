@@ -1,0 +1,44 @@
+country,revenue,invoices,customers,share_pct
+United Kingdom,3658065.5,39253,4777,90.3
+EIRE,107069.2,625,5,2.6
+Germany,49271.8,812,88,1.2
+France,40565.1,527,72,1.0
+Norway,38494.8,29,9,1.0
+Spain,16041.0,138,36,0.4
+Hong Kong,14452.6,12,0,0.4
+Portugal,13528.7,93,19,0.3
+Singapore,13175.9,11,1,0.3
+Netherlands,12322.8,199,23,0.3
+Belgium,11190.6,133,27,0.3
+Switzerland,9284.0,91,19,0.2
+Sweden,7876.8,107,17,0.2
+Channel Islands,7610.1,60,14,0.2
+Australia,6872.6,94,15,0.2
+Malta,6085.3,9,2,0.2
+Italy,5910.2,60,13,0.1
+Cyprus,4976.3,37,9,0.1
+Austria,3390.9,45,13,0.1
+Finland,3364.6,39,11,0.1
+RSA,3105.8,4,1,0.1
+Unspecified,3045.4,23,7,0.1
+Greece,2437.4,20,4,0.1
+United Arab Emirates,2400.2,20,4,0.1
+Denmark,1818.5,40,10,0.0
+Poland,1510.7,32,5,0.0
+USA,1185.1,19,6,0.0
+Japan,1083.1,49,8,0.0
+Canada,1053.1,7,4,0.0
+Iceland,509.9,6,1,0.0
+Lithuania,494.4,6,1,0.0
+Israel,457.6,7,2,0.0
+Bahrain,439.5,12,2,0.0
+Lebanon,358.6,3,1,0.0
+European Community,294.0,5,1,0.0
+Brazil,256.3,2,2,0.0
+Thailand,228.0,2,1,0.0
+Korea,150.2,3,2,0.0
+West Indies,122.8,1,1,0.0
+Nigeria,109.3,3,1,0.0
+Bermuda,84.7,1,0,0.0
+Czech Republic,31.8,2,1,0.0
+Saudi Arabia,24.1,2,1,0.0

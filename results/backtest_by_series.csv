@@ -1,0 +1,111 @@
+series,model,mae,rmse,wape_pct,bias,mae_vs_naive_pct,test_origins,test_from
+All countries,"ARIMA(2,1,2)",16162.2,22269.03,9.34,-1875.51,-13.1,16,2019-03-13
+All countries,naive (last 30 days),18598.97,21911.04,10.74,725.97,0.0,16,2019-03-13
+All countries,blend: last 30 days + last year,22462.83,25641.15,12.97,9600.95,20.77,16,2019-03-13
+All countries,seasonal ridge,25100.47,28098.09,14.5,-19918.07,34.96,16,2019-03-13
+All countries,Holt-Winters (weekly),28754.43,36208.23,16.61,-5557.63,54.6,16,2019-03-13
+All countries,ridge regression,33115.95,38136.79,19.13,32885.69,78.05,16,2019-03-13
+All countries,seasonal naive (last year),36172.45,40326.62,20.89,18475.93,94.49,16,2019-03-13
+All countries,gradient boosting,40632.15,50166.82,23.47,36501.5,118.46,16,2019-03-13
+All countries,random forest,41592.52,48001.7,24.02,38332.65,123.63,16,2019-03-13
+All countries,seasonal naive x recent growth,54200.17,62263.1,31.31,6965.38,191.41,16,2019-03-13
+United Kingdom,naive (last 30 days),15562.82,19623.09,10.06,-3331.8,0.0,16,2019-03-13
+United Kingdom,"ARIMA(2,1,2)",16710.21,21256.44,10.8,-4439.93,7.37,16,2019-03-13
+United Kingdom,blend: last 30 days + last year,22082.88,24715.86,14.27,7913.52,41.9,16,2019-03-13
+United Kingdom,seasonal ridge,22754.98,26313.91,14.71,-18780.16,46.21,16,2019-03-13
+United Kingdom,Holt-Winters (weekly),27594.5,35540.44,17.84,-11052.91,77.31,16,2019-03-13
+United Kingdom,ridge regression,31788.72,36830.76,20.55,31788.72,104.26,16,2019-03-13
+United Kingdom,seasonal naive (last year),37279.92,40332.29,24.1,19158.85,139.54,16,2019-03-13
+United Kingdom,random forest,37518.4,47423.08,24.25,33749.29,141.08,16,2019-03-13
+United Kingdom,gradient boosting,44318.32,56770.47,28.65,37633.1,184.77,16,2019-03-13
+United Kingdom,seasonal naive x recent growth,53011.08,63187.4,34.26,6443.56,240.63,16,2019-03-13
+EIRE,seasonal naive (last year),2956.2,3707.47,72.74,-429.51,-37.11,16,2019-03-13
+EIRE,random forest,3446.39,3899.25,84.81,846.68,-26.68,16,2019-03-13
+EIRE,blend: last 30 days + last year,3658.76,4442.4,90.03,85.68,-22.16,16,2019-03-13
+EIRE,gradient boosting,3764.48,4311.61,92.63,1212.25,-19.91,16,2019-03-13
+EIRE,"ARIMA(2,1,2)",3794.7,4695.02,93.38,208.96,-19.27,16,2019-03-13
+EIRE,ridge regression,4016.12,4557.28,98.83,1430.73,-14.56,16,2019-03-13
+EIRE,seasonal ridge,4022.43,5727.28,98.98,646.54,-14.42,16,2019-03-13
+EIRE,seasonal naive x recent growth,4189.67,4938.28,103.1,394.97,-10.87,16,2019-03-13
+EIRE,Holt-Winters (weekly),4638.12,5009.26,114.13,1665.55,-1.33,16,2019-03-13
+EIRE,naive (last 30 days),4700.43,5607.4,115.66,600.86,0.0,16,2019-03-13
+Germany,gradient boosting,307.56,428.19,11.52,-23.22,-58.96,16,2019-03-13
+Germany,random forest,341.1,414.35,12.78,-77.01,-54.48,16,2019-03-13
+Germany,ridge regression,434.25,518.02,16.27,-134.27,-42.05,16,2019-03-13
+Germany,"ARIMA(2,1,2)",451.64,583.47,16.92,-255.59,-39.73,16,2019-03-13
+Germany,Holt-Winters (weekly),505.75,559.51,18.95,99.01,-32.51,16,2019-03-13
+Germany,naive (last 30 days),749.32,887.71,28.07,-283.75,0.0,16,2019-03-13
+Germany,blend: last 30 days + last year,761.87,980.46,28.55,-74.62,1.67,16,2019-03-13
+Germany,seasonal ridge,827.8,921.23,31.02,-806.19,10.47,16,2019-03-13
+Germany,seasonal naive (last year),1132.36,1415.0,42.43,134.5,51.12,16,2019-03-13
+Germany,seasonal naive x recent growth,1842.01,2556.02,69.02,860.63,145.83,16,2019-03-13
+France,"ARIMA(2,1,2)",695.8,947.46,29.75,-299.09,-47.39,16,2019-03-13
+France,random forest,712.16,883.57,30.45,-81.84,-46.16,16,2019-03-13
+France,ridge regression,717.02,912.59,30.66,-222.82,-45.79,16,2019-03-13
+France,seasonal ridge,766.51,1007.31,32.77,-515.83,-42.05,16,2019-03-13
+France,gradient boosting,796.04,951.48,34.04,-95.28,-39.82,16,2019-03-13
+France,Holt-Winters (weekly),978.59,1111.88,41.84,437.16,-26.01,16,2019-03-13
+France,blend: last 30 days + last year,1053.1,1432.4,45.03,-385.28,-20.38,16,2019-03-13
+France,naive (last 30 days),1322.67,1565.21,56.55,180.88,0.0,16,2019-03-13
+France,seasonal naive (last year),1419.67,1761.66,60.7,-951.44,7.33,16,2019-03-13
+France,seasonal naive x recent growth,1506.03,2230.55,64.39,71.53,13.86,16,2019-03-13
+Norway,naive (last 30 days),824.67,1139.86,187.35,64.13,0.0,16,2019-03-13
+Norway,Holt-Winters (weekly),877.84,1079.55,199.43,136.2,6.45,16,2019-03-13
+Norway,blend: last 30 days + last year,1659.58,4487.21,377.02,862.87,101.24,16,2019-03-13
+Norway,"ARIMA(2,1,2)",1685.66,1838.22,382.94,1685.66,104.41,16,2019-03-13
+Norway,gradient boosting,1980.38,2277.95,449.9,1744.55,140.14,16,2019-03-13
+Norway,random forest,2000.43,2392.39,454.45,2000.43,142.57,16,2019-03-13
+Norway,ridge regression,2338.64,2421.52,531.28,2338.64,183.59,16,2019-03-13
+Norway,seasonal naive (last year),2530.71,8420.97,574.92,1661.6,206.88,16,2019-03-13
+Norway,seasonal naive x recent growth,2530.71,8420.97,574.92,1661.6,206.88,16,2019-03-13
+Norway,seasonal ridge,3680.81,9727.14,836.19,3065.67,346.34,16,2019-03-13
+Spain,ridge regression,188.86,237.07,30.03,121.65,-33.78,16,2019-03-13
+Spain,"ARIMA(2,1,2)",216.16,267.94,34.37,187.68,-24.21,16,2019-03-13
+Spain,naive (last 30 days),285.2,354.96,45.35,-45.16,0.0,16,2019-03-13
+Spain,blend: last 30 days + last year,285.42,369.7,45.38,-215.12,0.08,16,2019-03-13
+Spain,gradient boosting,285.97,339.75,45.47,88.71,0.27,16,2019-03-13
+Spain,random forest,377.05,412.43,59.95,118.15,32.21,16,2019-03-13
+Spain,Holt-Winters (weekly),411.77,475.61,65.48,318.95,44.38,16,2019-03-13
+Spain,seasonal naive (last year),416.83,499.17,66.28,-385.09,46.15,16,2019-03-13
+Spain,seasonal naive x recent growth,472.38,531.84,75.11,-227.51,65.63,16,2019-03-13
+Spain,seasonal ridge,1613.31,1648.41,256.53,1613.31,465.68,16,2019-03-13
+Hong Kong,ridge regression,483.15,540.35,476.4,392.72,-71.14,16,2019-03-13
+Hong Kong,"ARIMA(2,1,2)",716.94,720.64,706.92,716.94,-57.18,16,2019-03-13
+Hong Kong,random forest,824.81,904.66,813.28,824.81,-50.73,16,2019-03-13
+Hong Kong,gradient boosting,1041.93,1510.53,1027.37,1041.93,-37.77,16,2019-03-13
+Hong Kong,seasonal ridge,1281.13,4017.38,1263.23,1223.31,-23.48,16,2019-03-13
+Hong Kong,Holt-Winters (weekly),1300.78,1318.79,1282.6,1300.78,-22.3,16,2019-03-13
+Hong Kong,seasonal naive (last year),1481.1,2606.96,1460.4,1444.86,-11.53,16,2019-03-13
+Hong Kong,blend: last 30 days + last year,1547.89,1933.49,1526.26,1525.97,-7.55,16,2019-03-13
+Hong Kong,naive (last 30 days),1674.21,2853.09,1650.81,1607.08,0.0,16,2019-03-13
+Hong Kong,seasonal naive x recent growth,1905.38,3501.01,1878.74,1855.49,13.81,16,2019-03-13
+Portugal,random forest,1930.82,3456.67,91.68,-1773.58,-50.55,16,2019-03-13
+Portugal,gradient boosting,1979.11,3472.97,93.98,-1754.28,-49.32,16,2019-03-13
+Portugal,seasonal ridge,2002.9,3470.52,95.11,-1787.42,-48.71,16,2019-03-13
+Portugal,seasonal naive (last year),2068.09,3486.14,98.2,-1844.06,-47.04,16,2019-03-13
+Portugal,ridge regression,2174.74,3471.47,103.27,-1443.8,-44.31,16,2019-03-13
+Portugal,seasonal naive x recent growth,2187.88,3426.15,103.89,-1620.49,-43.97,16,2019-03-13
+Portugal,blend: last 30 days + last year,2975.74,3952.1,141.3,-762.44,-23.79,16,2019-03-13
+Portugal,Holt-Winters (weekly),3307.29,5492.08,157.04,-186.48,-15.3,16,2019-03-13
+Portugal,"ARIMA(2,1,2)",3350.99,5069.58,159.12,-255.23,-14.18,16,2019-03-13
+Portugal,naive (last 30 days),3904.89,5051.41,185.42,319.18,0.0,16,2019-03-13
+Singapore,gradient boosting,2343.89,5307.8,100.3,-2304.24,-62.1,16,2019-03-13
+Singapore,random forest,2351.3,5309.03,100.62,-2291.1,-61.98,16,2019-03-13
+Singapore,seasonal naive x recent growth,2355.95,5309.3,100.82,-2298.67,-61.9,16,2019-03-13
+Singapore,seasonal naive (last year),2355.95,5309.3,100.82,-2298.67,-61.9,16,2019-03-13
+Singapore,seasonal ridge,2361.1,5219.28,101.04,-2156.78,-61.82,16,2019-03-13
+Singapore,ridge regression,3343.08,5602.55,143.06,-3300.51,-45.94,16,2019-03-13
+Singapore,blend: last 30 days + last year,4269.78,6349.49,182.71,-394.39,-30.95,16,2019-03-13
+Singapore,Holt-Winters (weekly),4506.58,5855.87,192.85,-83.16,-27.12,16,2019-03-13
+Singapore,naive (last 30 days),6183.61,8704.59,264.61,1509.89,0.0,16,2019-03-13
+Singapore,"ARIMA(2,1,2)",10360.95,30650.72,443.37,5759.85,67.55,16,2019-03-13
+Netherlands,seasonal ridge,212.47,252.67,44.63,-62.87,-38.36,16,2019-03-13
+Netherlands,gradient boosting,255.08,333.82,53.58,224.07,-26.0,16,2019-03-13
+Netherlands,"ARIMA(2,1,2)",257.99,323.8,54.19,158.67,-25.16,16,2019-03-13
+Netherlands,Holt-Winters (weekly),267.92,317.88,56.28,66.48,-22.28,16,2019-03-13
+Netherlands,ridge regression,276.22,348.88,58.02,249.68,-19.87,16,2019-03-13
+Netherlands,random forest,289.32,369.82,60.77,224.4,-16.07,16,2019-03-13
+Netherlands,blend: last 30 days + last year,312.1,376.9,65.56,112.94,-9.46,16,2019-03-13
+Netherlands,seasonal naive x recent growth,341.74,433.95,71.79,80.96,-0.86,16,2019-03-13
+Netherlands,seasonal naive (last year),341.75,409.15,71.79,200.23,-0.86,16,2019-03-13
+Netherlands,naive (last 30 days),344.71,441.75,72.41,25.65,0.0,16,2019-03-13

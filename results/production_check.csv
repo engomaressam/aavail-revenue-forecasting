@@ -1,0 +1,5 @@
+model,mae,rmse,wape_pct,bias,test_origins
+naive (last 30 days),50843.13,57753.01,20.6,-45733.54,15
+seasonal naive (last year),45731.46,68999.46,18.53,33309.73,15
+blend: last 30 days + last year,24417.01,30707.1,9.89,-6211.91,15
+"ARIMA(2,1,2)",59182.54,71242.41,23.98,-55800.28,15
